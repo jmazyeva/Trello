@@ -11,7 +11,7 @@ public class ApplicationManager {
     HelperTeam team;
     HelperHeaderPage header;
 
-    public WebDriver driver;
+    WebDriver driver;
 
     public void init() throws InterruptedException {
         driver = new ChromeDriver();
@@ -54,6 +54,11 @@ public class ApplicationManager {
     public WebDriver getDriver()
     {
         return driver;
+    }
+
+    public String getUrl()
+    {
+        return driver.getCurrentUrl();
     }
 }
 

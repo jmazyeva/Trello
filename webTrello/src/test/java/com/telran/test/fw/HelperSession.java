@@ -39,8 +39,6 @@ public class HelperSession extends HelperBase
             clickOnAvatar();
             clickLogout();
         }
-        clickOnAvatar();
-        clickLogout();
     }
 
     public void clickLogout()

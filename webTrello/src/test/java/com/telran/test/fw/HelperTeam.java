@@ -15,7 +15,7 @@ public class HelperTeam extends HelperBase
 
     public void clickOnCreateTeamButton()
     {
-        click(By.cssSelector("[data-test-id='header-create-team-name-input']"));
+        click(By.cssSelector("[data-test-id='header-create-team-button']"));
     }
 
     public void confirmTeamDeletionButton()
