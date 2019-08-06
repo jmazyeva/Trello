@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="webTrello.main" target="1.8" />
-      <module name="webTrello.test" target="1.8" />
+      <module name="Trello.webTrello.main" target="1.8" />
+      <module name="Trello.webTrello.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
