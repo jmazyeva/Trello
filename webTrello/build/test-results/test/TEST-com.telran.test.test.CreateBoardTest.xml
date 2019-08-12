@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.test.test.CreateBoardTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-08-10T17:55:59" hostname="DESKTOP-UQJEMOV" time="71.747">
+  <properties/>
+  <testcase name="boardCreationTestWithDataProvider[0](Board:boardName=B)" classname="com.telran.test.test.CreateBoardTest" time="14.25"/>
+  <testcase name="boardCreationTestWithDataProvider[1](Board:boardName=B1)" classname="com.telran.test.test.CreateBoardTest" time="14.269"/>
+  <testcase name="boardCreationTestWithDataProvider[2](Board:boardName=!@#)" classname="com.telran.test.test.CreateBoardTest" time="14.49"/>
+  <testcase name="boardCreationTestWithDataProvider[3](Board:boardName=123)" classname="com.telran.test.test.CreateBoardTest" time="14.386"/>
+  <testcase name="boardCreationTestWithDataProvider[4](Board:boardName=BoardName123!@#)" classname="com.telran.test.test.CreateBoardTest" time="14.352"/>
+  <system-out><![CDATA[3
+4
+4
+5
+5
+6
+6
+7
+7
+8
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

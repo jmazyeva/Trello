@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.test.test.LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-10T17:54:24" hostname="DESKTOP-UQJEMOV" time="6.25">
+  <properties/>
+  <testcase name="loginTest" classname="com.telran.test.test.LoginTest" time="6.25"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1565459662636	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+l@https://a.trellocdn.com/prgb/dist/br/ltp.d308847b2d4908f0fa13.js:57:151855
+u@https://a.trellocdn.com/prgb/dist/br/ltp.d308847b2d4908f0fa13.js:57:151947
+fe/u</a.sendEvents@https://a.trellocdn.com/prgb/dist/br/ltp.d308847b2d4908f0fa13.js:57:152209
+fe/s.flush@https://a.trellocdn.com/prgb/dist/br/ltp.d308847b2d4908f0fa13.js:57:154704
+stop@https://a.trellocdn.com/prgb/dist/br/ltp.d308847b2d4908f0fa13.js:57:166248
+value@https://a.trellocdn.com/prgb/dist/br/app.136387930d621ee925a5.js:1:3042313
+Ba@https://a.trellocdn.com/prgb/dist/br/ltp.d308847b2d4908f0fa13.js:334:82398
+qa@https://a.trellocdn.com/prgb/dist/br/ltp.d308847b2d4908f0fa13.js:334:85073
+Is/<@https://a.trellocdn.com/prgb/dist/br/ltp.d308847b2d4908f0fa13.js:334:98280
+t.unstable_runWithPriority@https://a.trellocdn.com/prgb/dist/br/ltp.d308847b2d4908f0fa13.js:343:3194
+Is@https://a.trellocdn.com/prgb/dist/br/ltp.d308847b2d4908f0fa13.js:334:98215
+js@https://a.trellocdn.com/prgb/dist/br/ltp.d308847b2d4908f0fa13.js:334:97991
+Ts@https://a.trellocdn.com/prgb/dist/br/ltp.d308847b2d4908f0fa13.js:334:97336
+As@https://a.trellocdn.com/prgb/dist/br/ltp.d308847b2d4908f0fa13.js:334:98711
+Tn@https://a.trellocdn.com/prgb/dist/br/ltp.d308847b2d4908f0fa13.js:334:30569
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:202:14
+webdriverClickElement@chrome://marionette/content/interaction.js:183:11
+]]></system-err>
+</testsuite>

@@ -1,8 +1,10 @@
 package com.telran.test.fw;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
+import com.google.common.io.Files;
+import org.openqa.selenium.*;
+
+import java.io.File;
+import java.io.IOException;
 
 public class HelperBase
 {
@@ -46,4 +48,18 @@ public class HelperBase
     {
         Thread.sleep(millis);
     }
+
+    public void attache(By locator, File file)
+    {
+        driver.findElement(locator).sendKeys(file.getAbsolutePath());
+    }
+
+    public void takeScreenshot() throws IOException
+    {
+        File tmp = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        File screenshot = new File("src\\test\\screenshots\\screenshot-" + System.currentTimeMillis() + ".png");
+        Files.copy(tmp, screenshot);
+        System.out.println("Screenshot name:" + screenshot.getName());
+    }
+
 }

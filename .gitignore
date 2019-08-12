@@ -14,3 +14,7 @@ gradle-app.setting
 # gradle/wrapper/gradle-wrapper.properties
 .idea/workspace.xml
 webTrello/src/test/java/com/telran/test/LoginTest.java
+*.log
+*.png
+*.jpg
+*.gif

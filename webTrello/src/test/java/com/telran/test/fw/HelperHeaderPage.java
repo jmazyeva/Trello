@@ -12,7 +12,7 @@ public class HelperHeaderPage extends HelperBase
     }
 
     public void clickOnPlusButtonOnHeader() throws InterruptedException {
-        pause(10000);
+        pause(2000);
         click(By.cssSelector("[name=add]"));
     }
 

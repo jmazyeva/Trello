@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.test.test.BoardDeletionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-10T17:58:06" hostname="DESKTOP-UQJEMOV" time="12.249">
+  <properties/>
+  <testcase name="BoardDeletionTest" classname="com.telran.test.test.BoardDeletionTest" time="12.249"/>
+  <system-out><![CDATA[before:4
+after:3
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

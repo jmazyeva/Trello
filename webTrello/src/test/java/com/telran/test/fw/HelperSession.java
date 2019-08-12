@@ -13,7 +13,7 @@ public class HelperSession extends HelperBase
         clickOnLoginButton();
         fillUserForm(email, password);
         confirmLoginButton();
-        pause(5000);
+        pause(3000);
     }
 
     public void confirmLoginButton()

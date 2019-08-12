@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.test.test.ChangeAvatarTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-10T17:58:19" hostname="DESKTOP-UQJEMOV" time="3.531">
+  <properties/>
+  <testcase name="ChangeAvatar" classname="com.telran.test.test.ChangeAvatarTest" time="3.531"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1565459901977	Marionette	WARN	TimedPromise timed out after 5 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+]]></system-err>
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.test.test.CreateTeamTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-08-10T17:54:30" hostname="DESKTOP-UQJEMOV" time="71.228">
+  <properties/>
+  <testcase name="createTeamWithDataProvider[0](Team: teamName=G, description=G)" classname="com.telran.test.test.CreateTeamTest" time="14.301"/>
+  <testcase name="createTeamWithDataProvider[1](Team: teamName=?, description=?)" classname="com.telran.test.test.CreateTeamTest" time="14.232"/>
+  <testcase name="createTeamWithDataProvider[2](Team: teamName=G1, description=G1)" classname="com.telran.test.test.CreateTeamTest" time="14.12"/>
+  <testcase name="createTeamWithDataProvider[3](Team: teamName=?1, description=?1)" classname="com.telran.test.test.CreateTeamTest" time="14.181"/>
+  <testcase name="createTeamWithDataProvider[4](Team: teamName=Abcdefghigklmn123456789, description=Abcdefghigklmn123456789)" classname="com.telran.test.test.CreateTeamTest" time="14.394"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565395285947%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+]]></system-err>
+</testsuite>
