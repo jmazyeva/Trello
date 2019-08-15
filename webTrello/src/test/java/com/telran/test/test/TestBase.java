@@ -1,6 +1,6 @@
 package com.telran.test.test;
 
-
+//imports
 import com.telran.test.fw.ApplicationManager;
 import org.openqa.selenium.remote.BrowserType;
 import org.slf4j.Logger;
