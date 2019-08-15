@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">5</div>
+<div class="counter">2</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">1m11.23s</div>
+<div class="counter">28.422s</div>
 <p>duration</p>
 </div>
 </td>
@@ -64,7 +64,10 @@
 <a href="#tab0">Tests</a>
 </li>
 <li>
-<a href="#tab1">Standard error</a>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
@@ -79,32 +82,84 @@
 </thead>
 <tr>
 <td class="success">createTeamWithDataProvider[0](Team: teamName=G, description=G)</td>
-<td class="success">14.301s</td>
+<td class="success">14.289s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">createTeamWithDataProvider[1](Team: teamName=?, description=?)</td>
-<td class="success">14.232s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">createTeamWithDataProvider[2](Team: teamName=G1, description=G1)</td>
-<td class="success">14.120s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">createTeamWithDataProvider[3](Team: teamName=?1, description=?1)</td>
-<td class="success">14.181s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">createTeamWithDataProvider[4](Team: teamName=Abcdefghigklmn123456789, description=Abcdefghigklmn123456789)</td>
-<td class="success">14.394s</td>
+<td class="success">14.133s</td>
 <td class="success">passed</td>
 </tr>
 </table>
 </div>
 <div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>14:53:27.968 [Test worker] INFO  com.telran.test.test.TestBase - Start createTeamWithDataProvider with parameters [Team: teamName=G, description=G]
+14:53:27.969 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: nav.home-left-sidebar-container .js-react-root
+14:53:27.975 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: nav.home-left-sidebar-container .js-react-root
+14:53:27.975 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.xpath: .//li
+14:53:27.982 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.xpath: .//li
+14:53:29.999 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [name=add]
+14:53:30.015 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [name=add]
+14:53:30.312 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [data-test-id='header-create-team-button']
+14:53:30.327 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [data-test-id='header-create-team-button']
+14:53:30.624 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [data-test-id='header-create-team-name-input']
+14:53:30.640 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [data-test-id='header-create-team-name-input']
+14:53:30.874 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [data-test-id='header-create-team-name-input']
+14:53:30.890 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [data-test-id='header-create-team-name-input']
+14:53:30.906 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [data-test-id='header-create-team-name-input']
+14:53:30.921 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [data-test-id='header-create-team-name-input']
+14:53:30.937 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [name='desc']
+14:53:30.952 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [name='desc']
+14:53:31.187 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [name='desc']
+14:53:31.202 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [name='desc']
+14:53:31.218 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [name='desc']
+14:53:31.234 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [name='desc']
+14:53:31.249 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [data-test-id='header-create-team-submit-button']
+14:53:31.265 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [data-test-id='header-create-team-submit-button']
+14:53:36.530 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [name='house']
+14:53:36.592 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [name='house']
+14:53:36.842 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [name='house']
+14:53:36.889 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [name='house']
+14:53:42.226 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: nav.home-left-sidebar-container .js-react-root
+14:53:42.242 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: nav.home-left-sidebar-container .js-react-root
+14:53:42.242 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.xpath: .//li
+14:53:42.257 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.xpath: .//li
+14:53:42.257 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: nav.home-left-sidebar-container .js-react-root
+14:53:42.276 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: nav.home-left-sidebar-container .js-react-root
+14:53:42.276 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.xpath: .//li
+14:53:42.283 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.xpath: .//li
+14:53:44.288 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [name=add]
+14:53:44.319 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [name=add]
+14:53:44.585 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [data-test-id='header-create-team-button']
+14:53:44.601 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [data-test-id='header-create-team-button']
+14:53:44.851 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [data-test-id='header-create-team-name-input']
+14:53:44.867 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [data-test-id='header-create-team-name-input']
+14:53:45.101 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [data-test-id='header-create-team-name-input']
+14:53:45.117 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [data-test-id='header-create-team-name-input']
+14:53:45.133 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [data-test-id='header-create-team-name-input']
+14:53:45.148 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [data-test-id='header-create-team-name-input']
+14:53:45.164 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [name='desc']
+14:53:45.180 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [name='desc']
+14:53:45.413 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [name='desc']
+14:53:45.429 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [name='desc']
+14:53:45.445 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [name='desc']
+14:53:45.461 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [name='desc']
+14:53:45.492 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [data-test-id='header-create-team-submit-button']
+14:53:45.507 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [data-test-id='header-create-team-submit-button']
+14:53:50.744 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [name='house']
+14:53:50.759 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [name='house']
+14:53:51.009 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [name='house']
+14:53:51.025 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [name='house']
+14:53:56.363 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: nav.home-left-sidebar-container .js-react-root
+14:53:56.382 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: nav.home-left-sidebar-container .js-react-root
+14:53:56.382 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.xpath: .//li
+14:53:56.389 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.xpath: .//li
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
 <pre>console.error: BroadcastService: 
@@ -126,7 +181,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 4.10.3</a> at Aug 10, 2019 8:58:23 PM</p>
+<a href="http://www.gradle.org">Gradle 4.10.3</a> at Aug 12, 2019 2:55:03 PM</p>
 </div>
 </div>
 </body>

@@ -1,21 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.test.test.CreateBoardTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-08-10T17:55:59" hostname="DESKTOP-UQJEMOV" time="71.747">
+<testsuite name="com.telran.test.test.CreateBoardTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-08-12T11:54:00" hostname="DESKTOP-UQJEMOV" time="28.451">
   <properties/>
-  <testcase name="boardCreationTestWithDataProvider[0](Board:boardName=B)" classname="com.telran.test.test.CreateBoardTest" time="14.25"/>
-  <testcase name="boardCreationTestWithDataProvider[1](Board:boardName=B1)" classname="com.telran.test.test.CreateBoardTest" time="14.269"/>
-  <testcase name="boardCreationTestWithDataProvider[2](Board:boardName=!@#)" classname="com.telran.test.test.CreateBoardTest" time="14.49"/>
-  <testcase name="boardCreationTestWithDataProvider[3](Board:boardName=123)" classname="com.telran.test.test.CreateBoardTest" time="14.386"/>
-  <testcase name="boardCreationTestWithDataProvider[4](Board:boardName=BoardName123!@#)" classname="com.telran.test.test.CreateBoardTest" time="14.352"/>
-  <system-out><![CDATA[3
+  <testcase name="boardCreationTestWithDataProvider[0](Board:boardName=B)" classname="com.telran.test.test.CreateBoardTest" time="14.211"/>
+  <testcase name="boardCreationTestWithDataProvider[1](Board:boardName=B1)" classname="com.telran.test.test.CreateBoardTest" time="14.24"/>
+  <system-out><![CDATA[14:54:00.945 [Test worker] INFO  com.telran.test.test.TestBase - Start boardCreationTestWithDataProvider with parameters [Board:boardName=B]
+14:54:00.945 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+14:54:00.961 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+14:54:00.961 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+14:54:00.976 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+2
+14:54:02.977 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [name=add]
+14:54:02.984 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [name=add]
+14:54:03.226 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.xpath: //*[@data-test-id='header-create-board-button']
+14:54:03.242 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.xpath: //*[@data-test-id='header-create-board-button']
+14:54:03.507 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [data-test-id='header-create-board-title-input']
+14:54:03.523 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [data-test-id='header-create-board-title-input']
+14:54:03.758 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [data-test-id='header-create-board-title-input']
+14:54:03.774 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [data-test-id='header-create-board-title-input']
+14:54:03.790 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [data-test-id='header-create-board-title-input']
+14:54:03.805 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [data-test-id='header-create-board-title-input']
+14:54:03.821 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: button.W6rMLOx8U0MrPx
+14:54:03.852 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: button.W6rMLOx8U0MrPx
+14:54:04.102 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.xpath: //nav[@class='SdlcRrTVPA8Y3K']//li[1]
+14:54:04.118 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.xpath: //nav[@class='SdlcRrTVPA8Y3K']//li[1]
+14:54:04.352 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [data-test-id='header-create-board-submit-button']
+14:54:04.368 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [data-test-id='header-create-board-submit-button']
+14:54:09.620 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [name='house']
+14:54:09.635 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [name='house']
+14:54:09.870 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [name='house']
+14:54:09.885 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [name='house']
+14:54:15.136 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+14:54:15.140 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+14:54:15.140 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+14:54:15.156 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+3
+14:54:15.156 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+14:54:15.172 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+14:54:15.172 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+14:54:15.187 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+3
+14:54:17.188 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [name=add]
+14:54:17.203 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [name=add]
+14:54:17.453 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.xpath: //*[@data-test-id='header-create-board-button']
+14:54:17.469 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.xpath: //*[@data-test-id='header-create-board-button']
+14:54:17.734 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [data-test-id='header-create-board-title-input']
+14:54:17.750 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [data-test-id='header-create-board-title-input']
+14:54:17.982 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [data-test-id='header-create-board-title-input']
+14:54:17.989 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [data-test-id='header-create-board-title-input']
+14:54:17.996 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [data-test-id='header-create-board-title-input']
+14:54:18.003 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [data-test-id='header-create-board-title-input']
+14:54:18.022 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: button.W6rMLOx8U0MrPx
+14:54:18.030 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: button.W6rMLOx8U0MrPx
+14:54:18.258 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.xpath: //nav[@class='SdlcRrTVPA8Y3K']//li[1]
+14:54:18.274 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.xpath: //nav[@class='SdlcRrTVPA8Y3K']//li[1]
+14:54:18.508 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [data-test-id='header-create-board-submit-button']
+14:54:18.539 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [data-test-id='header-create-board-submit-button']
+14:54:23.803 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [name='house']
+14:54:23.819 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [name='house']
+14:54:24.069 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [name='house']
+14:54:24.085 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [name='house']
+14:54:29.365 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+14:54:29.381 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+14:54:29.381 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+14:54:29.396 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.xpath: //*[@class='icon-lg icon-member']/../../..//li
 4
-4
-5
-5
-6
-6
-7
-7
-8
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

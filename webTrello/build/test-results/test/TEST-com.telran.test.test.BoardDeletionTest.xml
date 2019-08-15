@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.test.test.BoardDeletionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-10T17:58:06" hostname="DESKTOP-UQJEMOV" time="12.249">
+<testsuite name="com.telran.test.test.BoardDeletionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-12T11:54:35" hostname="DESKTOP-UQJEMOV" time="12.25">
   <properties/>
-  <testcase name="BoardDeletionTest" classname="com.telran.test.test.BoardDeletionTest" time="12.249"/>
-  <system-out><![CDATA[before:4
+  <testcase name="BoardDeletionTest" classname="com.telran.test.test.BoardDeletionTest" time="12.25"/>
+  <system-out><![CDATA[14:54:35.685 [Test worker] INFO  com.telran.test.test.TestBase - Start BoardDeletionTest with parameters []
+14:54:35.685 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+14:54:35.701 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+14:54:35.701 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+14:54:35.717 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+before:4
+14:54:35.717 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+14:54:35.732 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+14:54:36.092 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [class='board-menu-navigation-item-link js-open-more']
+14:54:36.107 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [class='board-menu-navigation-item-link js-open-more']
+14:54:36.357 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [class='board-menu-navigation-item-link js-close-board']
+14:54:36.374 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [class='board-menu-navigation-item-link js-close-board']
+14:54:36.624 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [class='js-confirm full negate']
+14:54:36.639 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [class='js-confirm full negate']
+14:54:36.889 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [class='quiet js-delete']
+14:54:36.905 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [class='quiet js-delete']
+14:54:37.139 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [class='js-confirm full negate']
+14:54:37.155 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [class='js-confirm full negate']
+14:54:42.414 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [name='house']
+14:54:42.445 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [name='house']
+14:54:42.695 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.cssSelector: [name='house']
+14:54:42.711 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.cssSelector: [name='house']
+14:54:47.944 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element: By.xpath: //*[@class='icon-lg icon-member']/../../..//li
+14:54:47.951 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Element is found: By.xpath: //*[@class='icon-lg icon-member']/../../..//li
 after:3
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
