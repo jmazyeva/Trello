@@ -12,6 +12,7 @@ public class ApplicationManager
 {
     HelperSession session;
     AppiumDriver driver;
+    HelloPage helloPage;
 
     public void init() throws InterruptedException, MalformedURLException {
         DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -27,11 +28,16 @@ public class ApplicationManager
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
+        helloPage = new HelloPage(driver);
         session = new HelperSession(driver);
 
         //session.login("ybagaut@gmail.com", "112014312qQ");
     }
 
+    public HelloPage getHelloPage()
+    {
+        return helloPage;
+    }
 
     public void stop()
     {
@@ -42,6 +48,8 @@ public class ApplicationManager
     {
         return session;
     }
+
+
 }
 
 

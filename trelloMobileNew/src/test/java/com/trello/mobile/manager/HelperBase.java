@@ -2,10 +2,9 @@ package com.trello.mobile.manager;
 
 import com.google.common.io.Files;
 import io.appium.java_client.AppiumDriver;
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.touch.offset.PointOption;
+import org.openqa.selenium.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -76,5 +75,30 @@ public class HelperBase
     {
         driver.hideKeyboard();
     }
+
+    public void swipeToLeft()
+    {
+        TouchAction touch = new TouchAction(driver);
+        Dimension size = driver.manage().window().getSize();
+
+        int y = size.height/2;
+        int startX = (int) (size.width * 0.8);
+        int stopX = (int) (size.width * 0.1);
+
+        touch.longPress(PointOption.point(startX, y)).waitAction().moveTo(PointOption.point(stopX, y)).release().perform();
+    }
+
+    public void swipeUp()
+    {
+        TouchAction touch = new TouchAction(driver);
+        Dimension size = driver.manage().window().getSize();
+
+        int x = size.width/2;
+        int startY = (int) (size.height * 0.8);
+        int stopY = (int) (size.height * 0.1);
+
+        touch.press(PointOption.point(x, startY)).waitAction().moveTo(PointOption.point(x, stopY)).release().perform();
+    }
+
 
 }

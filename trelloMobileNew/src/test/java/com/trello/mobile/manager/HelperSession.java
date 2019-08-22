@@ -27,8 +27,12 @@ public class HelperSession extends HelperBase
     }
 
 
-    public boolean isUserLoggedIn() {
-
+    public boolean isUserLoggedIn()
+    {
         return isElementPresentFromLoginTest(By.id("notification_icon"));
     }
+
+
+
+
 }
