@@ -6,10 +6,10 @@
             <!--comment-->
             <class name="com.telran.test.test.LoginTest" />
             <class name="com.telran.test.test.CreateTeamTest" />
-            <class name="com.telran.test.test.CreateBoardTest" />
+           <!--<class name="com.telran.test.test.CreateBoardTest" />-->
             <class name="com.telran.test.test.TeamDelitionTest" />
-            <class name="com.telran.test.test.BoardDeletionTest" />
-            <class name="com.telran.test.test.ChangeAvatarTest" />
+            <!--<class name="com.telran.test.test.BoardDeletionTest" />-->
+            <!--<class name="com.telran.test.test.ChangeAvatarTest" />-->
         </classes>
     </test>
 </suite>

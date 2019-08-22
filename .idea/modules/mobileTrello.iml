@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="mobileTrello" external.linked.project.path="$MODULE_DIR$/../../mobileTrello" external.root.project.path="$MODULE_DIR$/../../mobileTrello" external.system.id="GRADLE" external.system.module.group="telran" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../mobileTrello">
+      <excludeFolder url="file://$MODULE_DIR$/../../mobileTrello/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../mobileTrello/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../mobileTrello/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="selenium-server-standalone-3.141.59" level="project" />
+    <orderEntry type="library" name="selenium-server-standalone-3.141.591" level="project" />
+  </component>
+</module>
